@@ -88,5 +88,14 @@
       "state": "OH",
       "zipcode": "43004"
     }
+  },
+  {
+    "username": "alice",
+    "address": {
+      "street": "250 Market St",
+      "city": "Dallas",
+      "state": "TX",
+      "zipcode": "75201"
+    }
   }
 ]
