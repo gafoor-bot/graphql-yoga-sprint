@@ -1,0 +1,25 @@
+{
+  "name": "graphql-yoga-sprint-working",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "start": "tsx src/server.ts",
+    "test": "vitest run",
+    "mesh": "echo \"Mesh config is included in .meshrc.yml. Install @graphql-mesh/cli and @graphql-mesh/json-schema v0 if you need generated Mesh artifacts.\"",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@envelop/core": "^5.5.1",
+    "graphql": "^16.11.0",
+    "graphql-yoga": "^5.21.2",
+    "fs-extra": "^11.3.2"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^24.0.0",
+    "tsx": "^4.23.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.10"
+  }
+}
